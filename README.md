@@ -1,2 +1,27 @@
-# Employee-Management-System
-A Python + MySQL Employee Management System with a simple CLI interface. Supports adding, viewing, updating, and deleting employee records. Built at an intermediate level to practice CRUD operations, database integration, and Python-MySQL connectivity.
+# Employee Management System (Python + MySQL)
+
+## 📌 Features
+- Add, view, update, delete employees
+- MySQL database integration
+- Simple CLI menu system
+
+## ⚙️ Setup
+1. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+2. Import `database.sql` into MySQL:
+```bash
+mysql -u root -p < database.sql
+```
+3. Run the app:
+```bash
+python app.py
+```
+
+## 🗄️ Database
+Database: `ems_db`  
+Table: `employees` (id, name, department, salary)
+
+---
+✨ Intermediate-level project for GitHub portfolio
